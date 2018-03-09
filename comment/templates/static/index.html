@@ -1,0 +1,36 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Standard Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>南工Club</title>
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/semantic.min.css' %}">
+<script src="{% static 'js/semantic.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/forIndex.css' %}">
+</head>
+
+<body class="pushable">
+    <div class="ui large top fixed menu transition hidden">
+        <div class="ui container">
+            <a class="active item">主页</a>
+            <a class="item">评课系统</a>
+            <a class="item">二手交易</a>
+            <a class="item">敬请期待</a>
+            <div class="right menu">
+              <div class="item">
+                 <a class="ui button">Log in</a>
+              </div>
+            <div class="item">
+                <a class="ui primary button">Sign Up</a>
+            </div>
+            </div>
+  </div>
+    </div>
+    <div class="ui vertical inverted sidebar menu left"></div>
+    <div class="pusher"></div>
+</body>
+</html>
